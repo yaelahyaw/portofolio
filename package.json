@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "awesome": "0.0.7",
+    "font": "0.0.4",
+    "font-awesome": "^4.7.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"

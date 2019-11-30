@@ -1,22 +1,119 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Source+Sans+Pro&display=swap');
+
+.wrapper{
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+.with-image {
+  background-image: url("image1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: #444;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+span {
+  position: absolute;
+  background: #ff6e40;
+  right: 65%;
+}
+h1{
+/* Sekolah Unggul */
+
+
+position: absolute;
+left: 15%;
+right: 2%;
+top: 14%;
+bottom: 12%;
+
+font-family: "Barlow";
+font-style: normal;
+font-weight: bold;
+font-size: 65px;
+line-height: 86px;
+
+color: #FFFFFF;
 }
 
-.App-link {
-  color: #09d3ac;
+.p{
+  position: absolute;
+  width: 678.64px;
+  height: 190px;
+  left: 232px;
+  top: 230px;
+  
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 38px;
+  
+  color: #FFFFFF;
+  
+  transform: rotate(-0.02deg);
+}
+.b{
+  font-weight: bold;
+}
+.Component2{
+  
+position: absolute;
+left: 14%;
+right: 55%;
+top: 80%;
+bottom: 10%;
+border: 3px solid #ff6e40;
+box-sizing: border-box;
+border-radius: 10px;
+}
+.selengkapnya{
+  /* Baca Selengkapnya */
+
+
+position: absolute;
+left: 30%;
+right: 25%;
+top: 10%;
+bottom: 13%;
+font-family: "Barlow";
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 43px;
+
+color: #FF6E40;
+}
+
+.opacity{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.10;
+}
+.right{
+  position: absolute;
+  max-width: 300px;
+  height: 100px;
+  left: 1300px;
+  top: 350px;
+  font-size: 70px;
+  color: #ffffff;
+}
+.left{
+  position: absolute;
+  max-width: 300px;
+  height: 100px;
+  left: 20px;
+  top: 350px;
+  font-size: 70px;
+  color: #ffffff;
 }
