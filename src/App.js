@@ -2,35 +2,31 @@ import React, {Component} from 'react';
 import "./App.css";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      matches: window.matchMedia("(min-width: 648px)").matches,
-    };
-  }
-  componentDidMount() {
-    const handler = e => this.setState({ matches: e.matches });
-    window.matchMedia("(min-width: 648px)").addListener(handler);
-  }
   render(){
-    const { matches } = this.state;
+   
     return(
         <div className="wrapper with-image">
-            <div matches className="text">
-                Save your Earth
-            <div className="text1" >
-                Menanam satu pohon, menghasilkan sejuta manfaat</div>
-            </div>
-            <div className="component">
-             <div className="donasi">Donasi Pohon</div>
+            <div className="Component1">
+                <h1>Sekolah<span>Unggul</span></h1>
             </div>
             <div>
-            <div className="component1">
-             <div className="kontak"><i class="fa fa-phone-alt"></i>Hubungi Kami</div>
+                <p className="p"><b className="b">Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
+
+            <div className="Component2">
+             <div className="selengkapnya">Baca Selengkapnya</div>
             </div>
-            </div>
-              
+
+            <div className="opacity"></div>
+
+        <div className="right">
+        <i class="fa fa-chevron-right" />
+        </div>
+
+        <div className="left">
+            <i class="fa fa-chevron-left"/>
+        </div>
+        </div>
 
     )
   }

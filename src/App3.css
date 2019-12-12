@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
+.with-image {
+    background-image: url("bgdaun.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+  }
+  .wrapper{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+   
+  .text{
+    margin: 200px;
+    justify-content: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 48px;
+  }
+  .text1{
+    font-family: 'Pangolin', cursive;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+.component{
+  display: flex;
+  position: absolute;
+  background: #00B894;
+  border-radius: 6px;
+  margin: 120px;
+  top: 230px;
+  left: 80px;
+  right: 850px;
+  bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.donasi{
+color: #ffffff;
+font-family: Pangolin;
+}
+.component1{
+  position: absolute;
+  left: 31%;
+  right: 55%;
+  top: 56%;
+  bottom: 35%;
+  
+  background: rgba(0, 184, 148, 0.1);
+  border: 3px solid #00B894;
+  box-sizing: border-box;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.kontak{
+position: absolute;
+left: 30.56%;
+right: 11.67%;
+top: 28.85%;
+bottom: 28.85%;
+font-family: Pangolin;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #00B894;
+}
+  
+  
